@@ -1,0 +1,198 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.full_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper_side {
+  background-color: #e4e0e1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  flex-direction: column;
+}
+
+.world_img {
+  position: relative;
+  left: 33%;
+  top: 27%;
+  border-radius: 20%;
+  transition: opacity 0.6s;
+}
+
+#title {
+  color: #ab886d;
+  font-weight: 1000;
+  font-size: 7rem;
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  right: 5%;
+}
+
+.plain_text {
+  color: #493628;
+  font-weight: 500;
+  font-size: 2.5rem;
+  position: absolute;
+  top: 42%;
+  left: 15%;
+}
+
+#lens {
+  background-color: #009688;
+  display: inline-block;
+  color: #e4e0e1;
+  padding-left: 0.35em;
+  padding-right: 0.35em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  border-radius: 25%;
+}
+
+
+
+
+.places_visited {
+  background-color: #fafafa;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  position: relative;
+}
+
+.Argentina {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.argentina_img {
+  position: relative;
+  left: 10%;
+  top: 25%;
+  border-radius: 20%;
+  transition: opacity 0.6s;
+}
+
+.hover_text_arg {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%); /* Center the text above the image */
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.6s;
+  z-index: 1; /* Ensures hover text is above the image */
+}
+
+
+/* Show the text overlay on hover */
+.Argentina:hover .hover_text_arg {
+  opacity: 1;
+}
+
+.Argentina:hover .argentina_img {
+  opacity: 0.3; /* Optional: Dim the image on hover */
+}
+
+
+
+.Catalonia {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalonia_img {
+  position: relative;
+  right: 10%;
+  top: 25%;
+  border-radius: 20%;
+  transition: opacity 0.6s;
+}
+
+.hover_text_cat{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%); /* Center the text above the image */
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.6s;
+  z-index: 1; /* Ensures hover text is above the image */
+}
+
+
+/* Show the text overlay on hover */
+.Catalonia:hover .hover_text_cat {
+  opacity: 1;
+}
+
+.Catalonia:hover .catalonia_img {
+  opacity: 0.3; /* Optional: Dim the image on hover */
+}
+
+
+
+
+.Chile {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chile_img {
+  position: relative;
+  top: 50%;
+  border-radius: 20%;
+  transition: opacity 0.6s;
+}
+
+.hover_text_chi{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text above the image */
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.6s;
+  z-index: 1; /* Ensures hover text is above the image */
+}
+
+/* Show the text overlay on hover */
+.Chile:hover .hover_text_chi {
+  opacity: 1;
+}
+
+.Chile:hover .chile_img {
+  opacity: 0.3; /* Optional: Dim the image on hover */
+}
