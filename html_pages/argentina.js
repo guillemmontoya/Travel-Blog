@@ -10,7 +10,7 @@ setInterval(function () {
     .fadeIn(400)
     .fadeOut(400)
     .fadeIn(400);
-}, 5000);
+}, 3000);
 
 setTimeout(function () {
   setInterval(function () {
@@ -21,7 +21,7 @@ setTimeout(function () {
       .fadeIn(400)
       .fadeOut(400)
       .fadeIn(400);
-  }, 5000);
+  }, 3000);
 }, 500); // 1 second delay for argentina2
 
 setTimeout(function () {
@@ -33,5 +33,5 @@ setTimeout(function () {
       .fadeIn(400)
       .fadeOut(400)
       .fadeIn(400);
-  }, 5000);
+  }, 3000);
 }, 1000);
