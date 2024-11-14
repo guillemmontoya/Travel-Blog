@@ -5,6 +5,7 @@
 .full_page {
   display: flex;
   flex-direction: column;
+  background-color: #b9e5e8;
 }
 
 .upper_side {
@@ -48,3 +49,54 @@
   left: 4%;
   bottom: 10%;
 }
+
+.lower_side {
+  background-color: #b9e5e8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  flex-direction: column;
+}
+
+.video_background {
+  background-color: white;
+  width: 80vw;
+  height: 50vw;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#villa_la_angostura {
+  color: #4a628a;
+  font-weight: 500;
+  font-size: 2rem;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.la_angostura {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  border-radius: 20px;
+}
+
+.text_angostura {
+  color: #4a628a;
+  font-weight: 500;
+  font-size: 1rem;
+  position: absolute;
+  left: 55%;
+  top: 35%;
+  width: 350px;
+  white-space: normal; /* Allows text to wrap */
+  overflow-wrap: break-word;
+}
+
+/* Welcome #493628 #AB886D #D6C0B3 #E4E0E1 Argentina #DFF2EB #B9E5E8 #7AB2D3
+#4A628A Catalonia #FFCF9D #FFB38E #FFB26F #DE8F5F Chile #1A1A19 #31511E #859F3D
+#F6FCDF */
