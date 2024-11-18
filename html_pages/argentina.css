@@ -65,7 +65,7 @@
   background-color: white;
   width: 80vw;
   height: 50vw;
-  border-radius: 20px;
+  border-radius: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -82,7 +82,7 @@
   position: absolute;
   left: 20%;
   top: 25%;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 
 .text_angostura {
