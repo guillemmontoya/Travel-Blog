@@ -1,0 +1,244 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.full_page {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe4c4;
+}
+
+.upper_side {
+  background-color: #ffe4c4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  flex-direction: column;
+}
+/* 
+#FFCF9D #FFB38E #FFB26F #DE8F5F */
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #de8f5f;
+  border-radius: 50%;
+  position: absolute;
+  top: 12%;
+  left: 82%;
+  animation-delay: 0.5s;
+}
+
+.stick1 {
+  width: 8px;
+  height: 50px;
+  background-color: #de8f5f;
+  position: absolute;
+  top: 2%;
+  left: 85.5%;
+  animation-delay: 1s;
+}
+
+.stick2 {
+  width: 50px;
+  height: 8px;
+  background-color: #de8f5f;
+  position: absolute;
+  top: 18%;
+  left: 91.5%;
+  animation-delay: 1.5s;
+}
+
+.stick3 {
+  width: 8px;
+  height: 50px;
+  background-color: #de8f5f;
+  position: absolute;
+  top: 30%;
+  left: 85.5%;
+  animation-delay: 2s;
+}
+
+.stick4 {
+  width: 50px;
+  height: 8px;
+  background-color: #de8f5f;
+  position: absolute;
+  top: 18%;
+  left: 76%;
+  animation-delay: 2.5s;
+}
+
+.curve {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 65%;
+  left: 29%;
+  background-color: transparent;
+  border-top: 8px solid #007377;
+  border-radius: 50% 50% 0 0;
+  animation-delay: 2s;
+  /* transform: rotate(-180deg); */
+}
+
+.curve2 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  background-color: transparent;
+  border-top: 8px solid #007377;
+  border-radius: 50% 50% 0 0;
+  transform: rotate(-180deg);
+  animation-delay: 2s;
+}
+
+.curve3 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 65%;
+  left: 47%;
+  background-color: transparent;
+  border-top: 8px solid #007377;
+  border-radius: 50% 50% 0 0;
+  /* transform: rotate(-180deg); */
+  animation-delay: 2s;
+}
+
+.curve4 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 60%;
+  left: 56%;
+  background-color: transparent;
+  border-top: 8px solid #007377;
+  border-radius: 50% 50% 0 0;
+  transform: rotate(-180deg);
+  animation-delay: 2s;
+}
+
+.curve5 {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 65%;
+  left: 65%;
+  background-color: transparent;
+  border-top: 8px solid #007377;
+  border-radius: 50% 50% 0 0;
+  /* transform: rotate(-180deg); */
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#title {
+  color: #007377;
+  font-weight: 1000;
+  font-size: 7rem;
+  position: relative;
+  bottom: 30%;
+  left: 5%;
+}
+
+.lower_side {
+  background-color: #ffe4c4;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: relative;
+  flex-direction: column;
+}
+
+.video_background {
+  background-color: white;
+  width: 70vw;
+  height: 80%;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+#pirineus {
+  color: #de8f5f;
+  font-weight: 500;
+  font-size: 2rem;
+  /* justify-self: center;
+  text-align: center; */
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.la_pirineus {
+  border-radius: 40px;
+  position: absolute;
+  left: 52%;
+  top: 12%;
+}
+
+.text_pirineus {
+  color: #007377;
+  font-weight: 500;
+  font-size: 1rem;
+  position: absolute;
+  left: 10%;
+  top: 18%;
+  width: 40%;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+#costa_brava {
+  color: #de8f5f;
+  font-weight: 500;
+  font-size: 2rem;
+  position: absolute;
+  left: 50%;
+  top: 53%;
+}
+
+.la_costa_brava {
+  position: absolute;
+  left: 10%;
+  top: 55%;
+  border-radius: 40px;
+  max-width: 100%;
+}
+
+.text_costa_brava {
+  color: #007377;
+  font-weight: 500;
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 61%;
+  width: 40%;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
